@@ -1,0 +1,10 @@
+.imagenes
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.contenedor
+{
+    text-align: left;
+}

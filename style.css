@@ -1,10 +1,40 @@
-.imagenes
-{
-    display: flex;
-    justify-content:center;
-    align-items:center;
-}
-.contenedor
-{
+.centro {
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    right: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #5858588c;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.navbar li a {
+    display: block;
+    padding: 10%;
+}
+
+.contenedor {
+    background-color: rgb(244, 248, 204);
+    display: inline-block;
+    position: fixed;
+    margin-left: 20%;
+    width: calc(80% - 40px); /* Ancho del contenedor, restando el margen y el padding */    
+    box-sizing: border-box;
+
 }
